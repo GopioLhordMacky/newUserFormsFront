@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:8080"; // Replace with your backend's base URL
+const BASE_URL = "https://newuserformsback.azurewebsites.net"; // Replace with your backend's base URL
 
 // Utility function to handle fetch requests
 const apiFetch = async (url, options = {}) => {

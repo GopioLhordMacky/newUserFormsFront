@@ -17,7 +17,7 @@ export default function Register() {
     setError(null);
 
     try {
-      const response = await fetch("http://localhost:8080/API/register", {
+      const response = await fetch("https://newuserformsback.azurewebsites.net/API/register", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),
